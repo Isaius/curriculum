@@ -1,8 +1,11 @@
+import Sidebar from "../components/Sidebar";
+
+import './styles.scss';
 
 function Main() {
   return (
     <div className="main">
-      Curriculum vitae
+      <Sidebar />
     </div>
   );
 }
