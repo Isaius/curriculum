@@ -1,14 +1,17 @@
 import './styles.scss'
 
-interface jobRegistryProps {
+interface Job {
   startDate: string
   endDate?: string
   jobPosition: string
   jobDescripton: string
 }
 
+interface JobProps {
+  job: Job
+}
 
-function JobRegistry(  { startDate, endDate, jobDescripton, jobPosition } : jobRegistryProps) {
+function JobRegistry({ job: { jobDescripton, jobPosition, startDate, endDate }} : JobProps) {
 
   return (
     <div className="job-registry">
@@ -37,3 +40,4 @@ function JobRegistry(  { startDate, endDate, jobDescripton, jobPosition } : jobR
 }
 
 export default JobRegistry;
+export { Job };
