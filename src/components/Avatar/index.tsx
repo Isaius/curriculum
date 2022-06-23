@@ -1,9 +1,12 @@
 import './styles.scss'
+interface avatarProps {
+  imgURL: string
+}
 
-function Avatar() {
+function Avatar({ imgURL }: avatarProps) {
   return (
     <div className="avatar">
-      <img className="avatar-image" src="https://i.imgur.com/IKAnpvO.png" />
+      <img className="avatar-image" src={imgURL} alt="profile"/>
     </div>
   );
 }
