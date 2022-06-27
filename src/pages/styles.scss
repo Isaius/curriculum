@@ -1,3 +1,27 @@
 .main {
-  color: white
+  display: flex;
+}
+
+.main .content {
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+}
+
+.main .content .name-container {
+  height: 200px;;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  
+  h1 {
+    font-size: 62px;
+    text-transform: uppercase;
+    max-width: 360px;
+    margin: 0;
+  }
+}
+
+.main .content .history {
+  padding: 0 55px;
 }

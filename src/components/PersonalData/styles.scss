@@ -1,5 +1,6 @@
 .personal-data {
-
+  text-align: left;
+  padding-left: 2.5em;
 }
 
 .personal-data .header {
@@ -10,4 +11,36 @@
   margin-bottom: 25px;
   text-align: left;
   border-bottom: 2px solid white;
+}
+
+.personal-data .address {
+  div > span:first-child {
+    text-transform: uppercase;
+  }
+
+  div > span:not(:first-child) {
+    margin-left: 5px;
+  }
+}
+
+.personal-data .contact-info {
+  margin-top: 25px;
+
+  span {
+    margin-right: 5px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.personal-data .contact-info, .personal-data .address {
+  line-height: 2em;
+}
+
+.personal-data .about p {
+  padding-right: 25px;
+  text-align: justify;
 }
