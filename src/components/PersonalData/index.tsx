@@ -4,8 +4,8 @@ import './styles.scss'
 function PersonalData() {
   return (
     <div className="personal-data">
-     <Title color='white'>
-        <h2>PROFILE</h2>
+     <Title color='white' level='h1'>
+        PROFILE
      </Title>
 
       <div className="address">

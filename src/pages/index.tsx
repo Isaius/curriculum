@@ -23,18 +23,12 @@ function Main() {
         </div>
 
         <div className="history">
-          <Title color="black">
-            <h2>Professional Experience</h2>
-          </Title>
-
+          <Title color="black">Professional Experience</Title>
           <JobRegistry job={jobs[0]}/>
         </div>
 
         <div className="history">
-          <Title color="black">
-            <h2>Other Information</h2>
-          </Title>
-
+          <Title color="black">Other Information</Title>
         </div>
 
       </div>
