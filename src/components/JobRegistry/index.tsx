@@ -39,5 +39,4 @@ function JobRegistry({ job: { jobDescripton, jobPosition, startDate, endDate }} 
   );
 }
 
-export default JobRegistry;
-export { Job };
+export { Job, JobRegistry };

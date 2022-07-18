@@ -1,5 +1,4 @@
-import Avatar from '../Avatar';
-import PersonalData from '../PersonalData';
+import { Avatar, PersonalData } from '../index';
 
 import './styles.scss'
 
